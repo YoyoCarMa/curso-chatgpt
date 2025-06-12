@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curso Intensivo de ChatGPT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Curso Intensivo de ChatGPT</h1>
+    <p>Esta página es para que tú (papá) puedas escribir tus dudas y Jordi te pueda responder y guiar paso a paso. También puedes abrir ChatGPT directamente desde aquí.</p>
+
+    <div class="link-chatgpt">
+      👉 <a href="https://chat.openai.com" target="_blank">Haz clic aquí para abrir ChatGPT</a>
+    </div>
+
+    <h2>Tu conversación con Jordi:</h2>
+    <div class="chat-box" id="chatBox"></div>
+    <textarea id="userInput" placeholder="Escribe aquí tu duda o comentario..."></textarea>
+    <button onclick="sendMessage()">Enviar</button>
+
+    <h3>Indicaciones de Jordi:</h3>
+    <div class="guide-box" id="guideBox"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
